@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Marton Farago CV</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0; padding: 0; 
+            font-weight: normal;
+            font-size: 10pt;
+            line-height: 130%;
+            font-weight: 300;
+        }
+
+        .page {
+            padding: 2.5em;
+            padding-bottom: 0;
+            page-break-after: always;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #1F2937;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        h1, h2, h3 {
+             margin-bottom: 0.5em;
+        }
+
+        h1, h2 {
+            text-transform: uppercase;
+        }
+
+        h2 {
+            border-bottom: 1px solid #ddd;
+        }
+
+        h2:not(:first-child) {
+            margin-top: 1em;
+        }
+
+        ul li {
+            margin-left:1.3em;
+        }
+
+        b {
+            font-weight: 600;
+            
+        }       
+
+        dl {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        dl dt {
+            width: 120px;
+        }
+
+        dl dd {
+            width: calc(100% - 120px);
+        }
+
+        .items > div > time {
+            float: right;
+        }
+
+        .items > div {
+            margin-bottom: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="page">
+
+    <h1><b>Marton Farago</b></h1>
+    <p>Berlin, DE 
+        · <a href="mailto:interferenc@gmail.com">interferenc@gmail.com</a> 
+        · <a href="https://www.linkedin.com/in/martonfarago">linkedin.com/in/martonfarago</a>
+        · <a href="https://github.com/interferenc">github.com/interferenc</a>
+    </p>
+
+    <p>
+        <b>Software engineering manager with 15+ years of experience,</b> driven by engineering excellence and a desire to build cool things with great people. I have developed highly available systems at scale, and my passion is building happy and efficient engineering teams. For my next role, I am looking for an opportunity to scale up an engineering group even further.
+    </p>
+
+	<h2>Technologies & Languages</h2>
+	<dl>
+		<dt>Languages:</dt><dd>TypeScript, PHP, SQL, Java, Go, C#</dd>
+        <dt>Frameworks:</dt><dd>React, Vue, Laravel</dd>
+        <dt>Technologies:</dt><dd>RDBMS, NoSQL, Node, gRPC, ElasticSearch, BLE, NFC</dd>
+        <dt>Tools:</dt><dd>Linux, Docker, AWS, CI/CD, APM</dd>
+        <dt>Fundamentals:</dt><dd>Data Structures, Algorithms, Functional Programming, OOP</dd>
+	</dl>
+
+	<h2>Work Experience</h2>
+	<div class="items">
+        <div>
+            <time>Jan 2021 – present</time>
+            <div>
+                <h3><b>VP of Engineering</b> at <a href="https://civey.com">Civey<a href="https://lumiformapp.com"></a></h3>
+                <ul>
+                    <li><b>Scaled the engineering team from 5 to 20+</b> while transitioning to a squad-based structure, dividing up the knowledge domain and enhancing the sense of ownership.</li>
+                    <li>Supervised the development and maintenance of the voting widget and its infrastructure handling <b>6M+ daily votes</b> and 1M+ daily active users.</li>
+                    <li>Formulated a <b>technical debt management strategy</b> with periodic assessments and processes to align it with the product roadmap.</li>
+                    <li>Implemented a <b>career planning framework</b> for both individual contributors and engineering managers, promoting multiple team members as a result.</li>
+                    <li>Drove the teams to establish internal design and coding standards, resulting in easier planning and collaboration and more accurate estimates.</li>
+                    <li>Laid the foundations for a company-wide learning culture with a yearly learning budget, a curated list of learning resources, and allocated time.</li>
+                    <li>Established a documentation-first approach to improve team efficiency, velocity, and onboarding.</li>
+                    <li>Ran a workshop series on advanced <b>TypeScript</b> techniques, DB schema, and systems design.</li>
+                    <li>Initiated a review of all APM metrics, uncovering and fixing multiple critical performance issues.</li>
+                </ul>
+            </div>
+        </div>
+		<div>
+            <time>Jan 2019 – 2020</time>
+            <div>
+                <h3><b>CTO</b> at <a href="https://lumiformapp.com">Lumiform</a></h3>
+                <ul>
+                    <li>Started as the sole engineer, <b>grew the team to 15+</b> backend, frontend, iOS, and Android engineers.</li>
+                    <li>Participated in the fundraising of a 1.5M EUR seed round and built the first versions of the service.</li>
+                    <li>Built the API using a <b>multi-tiered architecture</b>, handling thousands of 200 MB+ requests daily.</li>
+                    <li>Used <b>PHP7 with Laravel</b> and the JSON:API schema, with authentication and authorization centralized in resource access policies, allowing for efficient security audits.</li>
+                    <li>Built a remote temperature and humidity monitoring product using Bluetooth Low Energy beacons and Raspberry Pi-based gateways, including a system to remotely update and monitor the health and status of the devices.</li>
+                    <li>Mentored the team on advanced <b>TypeScript</b> patterns, test-driven development practices, and standardization efforts to help <b>take ownership of the codebase</b> and to improve code quality.</li>
+                    <li>Set up the development environment and workflows using industry best practices like CI and CD to <b>AWS RDS, ECS, and S3</b>, automated testing, feature flagging, and canarying.</li>
+                    <li>Promoted multiple team members to team leads and engineering managers.</li>
+                    <li>Invested in fully native mobile apps after our PWA MVP turned out to be unreliable: iOS clients ran out of memory as canvases were not garbage collected, IndexedDB WAL kept growing even after reclaiming space.</li>
+                    <li>Implemented agile workflows, heavily investing in team autonomy.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="page">
+    <h2>Work Experience</h2>
+    <div class="items">
+		<div>
+            <time>2005 – 2016</time>
+            <div>
+                <h3><b>Founder & Tech Lead</b> at various startups</h3>
+                <ul>
+                    <li>Bootstrapped the <b>most popular shopping engine</b> in Hungary, which was <a href="https://sanoma.com/release/sanoma-budapest-acquires-comparison-site-olcsobbat-hu/">acquired in 2009</a>.</li>
+                    <li>Disrupted the Hungarian real estate market with a new listings engine that combined OpenStreetMap data with government-provided parcel coordinates to create an unparallelled real estate browsing experience.</li>
+                    <li>Designed and implemented multiple systems handling <b>300k+ daily users</b> with sub 50ms response times serving multiple clients, including a native <a href="https://napiapp.blog.hu/2014/08/26/koltozzbe_hu_terkepes_ingatlankereso_androidra">Android application</a> I developed in <b>Java</b>.</li>
+                    <li>Developed multiple Lucene-based services using Apache Solr and <b>ElasticSearch</b> for very fast searching in 100M+ records.</li>
+                    <li>Scaled and led tight-knit multidisciplinary <b>teams from zero to 12+</b>.</li>               
+                </ul>
+            </div>
+        </div>
+        <div>
+            <time>2001 – 2004</time>
+            <div>
+                <h3><b>Freelancer Software Engineer</b></h3>
+                <ul>
+                    <li>Built the first version of a digital advertising service, <b>serving 5M+ ads daily</b>.</li>
+                    <li>
+                        Created a <a href="https://keresok.blog.hu/2008/12/10/hotspotter_hu_forro_nyomon">
+                        hotspot database</a> in Hungary, using a custom 
+                        interactive JavaScript map implementation that helped locals and foreigners find a hotspot near them for over a decade.
+                    </li>
+                    <li>Built several e-commerce websites using the LAMP stack.</li>
+                </ul>
+            </div>
+        </div>
+	</dl>
+
+    <h2>Projects</h2>
+    <div class="items">
+        <div>
+            <time>2020</time>
+            <div>
+                <h3><b>Robust SPA building techniques</b></h3>
+                <ul>
+                    <li>
+                        I started collecting a <a href="https://github.com/interferenc/breweries">list of best practices</a> to spread the word on how to build robust SPAs.
+                    </li>
+                    <li>
+                        I advocate for the use of the <b>CLEAN architecture</b> and go against the common practice of just stuffing all business logic into framework-specific components.
+                    </li>
+                    <li>
+                        I demonstrate how strict types and advanced techniques like discriminated unions and branded types can help to catch possible problems at compile time.
+                    </li>
+                    <li>
+                        I demonstrate how immutability and <b>functional programming concepts</b> can help any SPA get closer to the ultimate goal of never having a runtime exception.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <time>2017</time>
+            <div>
+                <h3><b>macOS on Intel x299</b></h3>
+                <ul>
+                    <li>
+                        I disassembled the BIOS of an x299 motherboard to find the assembly code that locked the Ex02 model-specific register. I provided a <a href="https://gist.github.com/interferenc/d82357a13751bc24dcc5942f6af2374b">binary patch</a> to the community that disables the lock, allowing the installation of macOS.
+                    </li>
+                    <li>
+                        I have uncovered a bug present in all x299 processors, where they all start with skewed time stamp counters (TSC) and built a <a href="https://github.com/interferenc/TSCAdjustReset">kernel extension</a> that resets them on boot and wake, allowing macOS to boot and to use proper power management.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+	<h2>Education</h2>
+	<div class="items">
+        <div>
+            <time>2001 – 2005</time>
+            <div>
+                <h3><b>Computer Science</b> at the Budapest University of Technology and Economics</h3>
+            </div>
+        </div>
+	</div>
+</div>
+</body>
+
+</html>
